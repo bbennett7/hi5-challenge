@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.container {
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: $hi5Black;
+  align-items: center;
+}
+
+.container * {
+  color: $hi5Black;
+  margin: 5px 10px;
+  font-size: 18px;
+}
+
+.name {
+  font-family: 'Reem Kufi', sans-serif;
+  color: $hi5Black;
+  font-size: 30px;
+}
+.image {
+  width: 400px;
+}
