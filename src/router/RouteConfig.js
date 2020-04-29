@@ -1,4 +1,4 @@
-import { Home } from '../pages';
+import { Home, Breed } from '../pages';
 
 const routes = [
   {
@@ -10,8 +10,8 @@ const routes = [
   {
     path: '/breeds/:breedName',
     exact: true,
-    // name: 'Breed',
-    // component: Breed
+    name: 'Breed',
+    component: Breed,
   },
 ];
 
